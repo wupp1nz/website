@@ -1,0 +1,26 @@
+.about {
+	display: block;
+	margin: 1rem 1rem $base-line-height*2 1rem;
+}
+
+.about-picture {
+	display: block;
+	width: auto;
+	margin: 0 auto $base-line-height/2 auto;
+	height: 12rem;
+	border-radius: 5%;
+}
+
+.about-aboutPicture {
+	display: block;
+	color: $text-grey;
+	font-size: .8rem;
+	text-align: center;
+	max-width: 25ch;
+	margin: 0 auto $base-line-height auto;
+}
+
+.about-bit {
+	display: block;
+	margin-bottom: $base-line-height;
+}

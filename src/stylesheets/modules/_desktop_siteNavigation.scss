@@ -1,0 +1,24 @@
+
+.siteNavigation {
+	background: $text-dark;
+}
+
+.siteNavigation-links {
+	padding: .5rem 0 0 0;
+	display: block;
+	background: transparent;
+	margin: 0 auto;
+	max-width: 65ch;
+}
+
+.siteNavigation-link {
+	width: 16.5%;
+	font-size: 1rem;
+	border-bottom: $base-line-height/4 solid transparent;
+	transition-property: border-bottom;
+	transition: .15s all ease-in-out;
+	&:hover {
+		color: $text-light;
+		border-bottom: $base-line-height/4 solid #603cba;
+	}
+}

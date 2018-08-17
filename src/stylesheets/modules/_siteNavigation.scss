@@ -1,0 +1,21 @@
+.siteNavigation-links {
+	display: block;
+	background: $text-dark;
+}
+
+.siteNavigation-link {
+	display: inline-block;
+	width: 33%;
+	padding: $base-line-height/1.5 0;
+	text-align: center;
+	text-decoration: none;
+	color: $text-grey;
+	font-size: .8rem;
+	font-weight: bold;
+	&:visited {
+		color: $text-grey;
+	}
+	&[data-s="active"] {
+		color: $text-light;
+	}
+}

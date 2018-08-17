@@ -1,0 +1,22 @@
+.directory {
+	background: $text-dark;
+	padding: 3rem 2rem;
+}
+
+.directory-title {
+	color: $text-grey;
+	display: block;
+	margin-bottom: $base-line-height/2;
+}
+
+.directory-link {
+	display: block;
+	color: $text-light;
+	text-decoration: none;
+	font-weight: bold;
+	padding: $base-line-height/4 0;
+	margin-bottom: $base-line-height/2;
+	&:visited {
+		color: $text-light;
+	}
+}

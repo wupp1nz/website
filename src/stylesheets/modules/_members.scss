@@ -1,0 +1,20 @@
+.members {
+	display: block;
+	margin: $base-line-height*2 1rem;
+}
+
+.member {
+	display: block;
+	margin-bottom: $base-line-height;
+}
+
+.member-name {
+	letter-spacing: 0px;
+}
+
+.member-study {
+	display: block;
+	color: $text-grey;
+	font-size: .8rem;
+	margin-top: -.4rem;
+}

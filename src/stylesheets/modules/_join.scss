@@ -1,0 +1,20 @@
+.join {
+	display: block;
+	margin: $base-line-height*2 1rem;
+}
+
+.join-email {
+	display: block;
+	margin-bottom: $base-line-height;
+}
+
+.join-benefitList {
+	display: block;
+	margin-bottom: $base-line-height;
+	list-style: square;
+}
+
+.join-benefit {
+	color: $text-grey;
+	margin-bottom: .5rem;
+}
