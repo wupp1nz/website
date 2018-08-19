@@ -126,6 +126,10 @@ ul {
   font-size: .8rem;
   margin-top: -.4rem; }
 
+.member-about {
+  display: block;
+  margin-bottom: 1.5rem; }
+
 .directory {
   background: rgba(18, 18, 18, 0.92);
   padding: 3rem 2rem; }
