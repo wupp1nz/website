@@ -29,5 +29,9 @@
 .event-agenda {
 	display: block;
 	list-style: square inside;
-	margin: $base-line-height 0;
+	margin: $base-line-height 0 $base-line-height*2 4rem;
+}
+
+.event-agendaTitle {
+	font-size: 1rem;
 }

@@ -143,7 +143,10 @@ ul {
 .event-agenda {
   display: block;
   list-style: square inside;
-  margin: 1.5rem 0; }
+  margin: 1.5rem 0 3rem 4rem; }
+
+.event-agendaTitle {
+  font-size: 1rem; }
 
 .directory {
   background: rgba(18, 18, 18, 0.92);
