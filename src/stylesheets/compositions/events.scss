@@ -4,7 +4,7 @@
 @import "../partials/typography";
 
 @import "../modules/siteNavigation";
-@import "../modules/work";
+@import "../modules/events";
 @import "../modules/directory";
 
 @media screen and (min-width: $res-tablet) {
@@ -20,6 +20,6 @@
     }
 
     @import "../modules/desktop_siteNavigation";
-    @import "../modules/desktop_work";
+    @import "../modules/desktop_events";
     @import "../modules/desktop_directory";
 }
