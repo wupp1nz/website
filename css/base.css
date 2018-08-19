@@ -225,7 +225,7 @@ body {
     font-size: 1.5rem; }
 
   .banner-cta {
-    background-color: #1d768c;
+    background-color: #269ab7;
     transition-property: background-color;
     transition: .15s all ease-in-out; }
   .banner-cta:hover {
