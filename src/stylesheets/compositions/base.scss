@@ -4,11 +4,7 @@
 @import "../partials/typography";
 
 @import "../modules/siteNavigation";
-
-main {
-    margin: $base-line-height*4 1rem;
-}
-
+@import "../modules/home";
 @import "../modules/directory";
 
 
@@ -25,10 +21,6 @@ main {
     }
 
     @import "../modules/desktop_siteNavigation";
+    @import "../modules/desktop_home";
     @import "../modules/desktop_directory";
-
-    main {
-        max-width: 55ch;
-        margin: $base-line-height*8 auto;
-    }
 }

@@ -1,0 +1,31 @@
+body {
+	padding: 0vh 2rem 10vh 2rem;
+	background-position: right;
+}
+
+.banner {
+  padding: 10vh 25vw 40vh 25vw;
+}
+
+.banner-title {
+	font-size: 1.5rem;
+}
+
+.banner-description {
+	font-size: 1.5rem;
+}
+
+.banner-cta {
+	background-color: #269ab7;
+	transition-property: background-color;
+	transition: .15s all ease-in-out;
+	&:hover {
+		background-color: #2db3d4;
+	}
+}
+
+// HEADER OVERRIDES
+
+.siteNavigation {
+	background: transparent;
+}

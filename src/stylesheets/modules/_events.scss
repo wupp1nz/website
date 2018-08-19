@@ -1,0 +1,41 @@
+.events {
+	display: block;
+	margin: $base-line-height*2 1rem;
+}
+
+.event {
+	display: block;
+	margin-bottom: $base-line-height*2;
+}
+
+.event-title {
+	font-size: 1.35rem;
+}
+
+.event-date, .event-location {
+	display: block;
+	color: $text-dark;
+	font-weight: bold;
+	font-size: .8rem;
+}
+
+.event-text {
+	margin-top: $base-line-height;
+}
+
+.event-notes {
+	color: $text-grey;
+	display: block;
+	margin-top: -.8rem;
+	font-size: .8rem;
+}
+
+.event-agenda {
+	display: block;
+	list-style: square inside;
+	margin: $base-line-height 0 $base-line-height*2 4rem;
+}
+
+.event-agendaTitle {
+	font-size: 1rem;
+}
