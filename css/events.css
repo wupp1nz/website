@@ -134,6 +134,9 @@ ul {
   font-weight: bold;
   font-size: .8rem; }
 
+.event-text {
+  margin-top: 1.5rem; }
+
 .event-notes {
   color: gray;
   display: block;
