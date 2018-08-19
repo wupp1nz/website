@@ -95,6 +95,14 @@ ul {
   display: block;
   background: rgba(18, 18, 18, 0.92); }
 
+.siteNavigation-logo {
+  width: 100%;
+  max-width: 15ch;
+  margin-top: -2rem;
+  margin-bottom: -2.75rem;
+  padding-left: 2px;
+  height: auto; }
+
 .siteNavigation-link {
   display: inline-block;
   width: 33%;
@@ -166,8 +174,11 @@ ul {
   .siteNavigation {
     background: rgba(18, 18, 18, 0.92); }
 
+  .siteNavigation-logo {
+    padding-left: 0; }
+
   .siteNavigation-links {
-    padding: .5rem 0 0 0;
+    padding: 0;
     display: block;
     background: transparent;
     margin: 0 auto;

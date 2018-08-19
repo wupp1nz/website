@@ -1,10 +1,13 @@
-
 .siteNavigation {
 	background: $text-dark;
 }
 
+.siteNavigation-logo {
+	padding-left: 0;
+}
+
 .siteNavigation-links {
-	padding: .5rem 0 0 0;
+	padding: 0;
 	display: block;
 	background: transparent;
 	margin: 0 auto;
