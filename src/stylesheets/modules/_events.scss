@@ -25,3 +25,9 @@
 	margin-top: -.8rem;
 	font-size: .8rem;
 }
+
+.event-agenda {
+	display: block;
+	list-style: square inside;
+	margin: $base-line-height 0;
+}
