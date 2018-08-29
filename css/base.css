@@ -120,9 +120,9 @@ ul {
 
 body {
   padding: 0;
-  background-image: url("../media/sea-general-interest-banner-team.PNG");
+  background-image: url("../media/sea-side-projects-banner.PNG");
   background-size: cover;
-  background-position: center; }
+  background-position: top; }
 
 .banner {
   padding: 10vh 2rem 20vh 2rem; }
@@ -214,7 +214,7 @@ body {
 
   body {
     padding: 0vh 2rem 10vh 2rem;
-    background-position: right; }
+    background-position: center; }
 
   .banner {
     padding: 10vh 25vw 40vh 25vw; }
