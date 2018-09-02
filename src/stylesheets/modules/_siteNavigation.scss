@@ -19,13 +19,13 @@
 	padding: $base-line-height/1.5 0;
 	text-align: center;
 	text-decoration: none;
-	color: $text-grey;
+	color: $text-light;
 	font-size: .8rem;
 	font-weight: bold;
 	&:visited {
-		color: $text-grey;
+		color: $text-light;
 	}
 	&[data-s="active"] {
-		color: $text-light;
+		color: #2db3d4;
 	}
 }
