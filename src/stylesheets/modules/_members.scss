@@ -1,9 +1,15 @@
-.members {
+.members, .board {
 	display: block;
 	margin: $base-line-height*2 1rem;
 }
 
-.member {
+.members .member {
+	display: block;
+	font-size: .8rem;
+	margin-bottom: $base-line-height/2;
+}
+
+.board .member {
 	display: block;
 	margin-bottom: $base-line-height;
 }
