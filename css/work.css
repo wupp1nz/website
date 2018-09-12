@@ -1,4 +1,3 @@
-/* base.scss - example composition. Will be converted --> base.min.css (and base.css for debugging) */
 /* reset.scss - CSS reset */
 * {
   padding: 0;
@@ -96,10 +95,12 @@ ul {
   background: rgba(18, 18, 18, 0.92); }
 
 .siteNavigation-logo {
-  width: 100%;
-  margin-top: -2rem;
-  margin-bottom: -2.75rem;
-  padding-left: 2px;
+  width: 33%;
+  display: inline;
+  vertical-align: middle;
+  padding-left: -2px;
+  text-align: center;
+  overflow: visible;
   height: auto; }
 
 .siteNavigation-link {
@@ -108,17 +109,43 @@ ul {
   padding: 1rem 0;
   text-align: center;
   text-decoration: none;
-  color: gray;
+  color: #f7f7f7;
   font-size: .8rem;
   font-weight: bold; }
 .siteNavigation-link:visited {
-  color: gray; }
-.siteNavigation-link[data-s="active"] {
   color: #f7f7f7; }
+.siteNavigation-link[data-s="active"] {
+  color: #2db3d4; }
+
+.contents {
+  list-style: none;
+  display: block;
+  margin: 1.5rem 1rem 0 1rem; }
+
+.content {
+  margin-bottom: 0px; }
+
+.works {
+  display: block;
+  margin: 1.5rem 1rem 3rem 1rem; }
+
+.works-title {
+  display: block;
+  margin-bottom: 1.5rem; }
 
 .work {
   display: block;
-  margin: 3rem 1rem; }
+  margin-bottom: 3rem; }
+
+.work-title {
+  letter-spacing: -1px; }
+
+.work-lead {
+  font-size: 1.25rem;
+  color: gray; }
+
+.work-topics, .work-skills {
+  display: block; }
 
 .directory {
   background: rgba(18, 18, 18, 0.92);
@@ -171,15 +198,15 @@ ul {
     transition-property: border-bottom;
     transition: .15s all ease-in-out; }
   .siteNavigation-link:hover {
-    color: #f7f7f7;
-    border-bottom: 0.375rem solid #603cba; }
+    border-bottom: 0.375rem solid #2db3d4; }
 
-  .work {
+  .works, .contents {
     max-width: 55ch;
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 10rem;
-    margin-bottom: 20rem; }
+    margin-right: auto; }
+
+  .content {
+    font-size: 1rem; }
 
   .directory-links, .directory-title {
     max-width: 55ch;
@@ -200,4 +227,4 @@ ul {
     color: gray; }
   .directory-link:hover {
     color: #f7f7f7;
-    border-left: 0.375rem solid #603cba; } }
+    border-left: 0.375rem solid #2db3d4; } }
