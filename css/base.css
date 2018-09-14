@@ -120,7 +120,7 @@ ul {
 
 body {
   padding: 0;
-  background-image: url("../media/sea-waves.PNG");
+  background-image: url("../media/sea-crumble-banner.PNG");
   background-size: cover;
   background-position: top; }
 
@@ -213,7 +213,7 @@ body {
 
   body {
     padding: 0vh 2rem 10vh 2rem;
-    background-position: center; }
+    background-position: left; }
 
   .banner {
     padding: 10vh 25vw 40vh 25vw; }
