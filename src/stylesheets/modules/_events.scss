@@ -12,6 +12,13 @@
 	font-size: 1.35rem;
 }
 
+.event-image {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 55ch;
+}
+
 .event-date, .event-location {
 	display: block;
 	color: $text-dark;
@@ -21,6 +28,11 @@
 
 .event-text {
 	margin-top: $base-line-height;
+}
+
+.event-text-urgent {
+	color: orangered;
+	font-weight: bold;
 }
 
 .event-notes {
