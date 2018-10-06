@@ -119,7 +119,7 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-stars-banner.PNG");
+  background-image: url("../media/sea-chalkboard-banner.PNG");
   background-size: cover;
   background-position: bottom; }
 
@@ -227,9 +227,9 @@ header {
     background-color: #2db3d4; }
 
   .siteNavigation {
-    background-image: url("../media/sea-stars-banner.PNG");
+    background-image: url("../media/sea-chalkboard-banner.PNG");
     background-size: cover;
-    background-position: left; }
+    background-position: bottom; }
 
   .directory-links, .directory-title {
     max-width: 55ch;
