@@ -117,13 +117,23 @@ ul {
 .siteNavigation-link[data-s="active"] {
   color: #2db3d4; }
 
-.contents {
+.contents, .contents-inner {
   list-style: none;
   display: block;
   margin: 1.5rem 1rem 0 1rem; }
 
+.contents-inner {
+  margin-top: 0;
+  margin-left: 1.1rem;
+  margin-bottom: .5rem; }
+
 .content {
-  margin-bottom: 0px; }
+  margin-bottom: 5px; }
+
+.content-title {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: bold; }
 
 .works {
   display: block;
@@ -139,6 +149,15 @@ ul {
 
 .work-title {
   letter-spacing: -1px; }
+
+.work-image {
+  width: 100%;
+  display: block;
+  max-width: 35ch; }
+
+.work-link {
+  display: block;
+  font-weight: bold; }
 
 .work-lead {
   font-size: 1.25rem;
