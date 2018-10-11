@@ -3,21 +3,16 @@
 	margin: $base-line-height*2 1rem $base-line-height*2 1rem;
 }
 
-.about-picture {
-	display: block;
-	width: auto;
-	margin: 0 auto $base-line-height/2 auto;
-	height: 12rem;
-	border-radius: 5%;
+.about-text {
+	margin-bottom: $base-line-height*2;
 }
 
-.about-aboutPicture {
+.about-image {
 	display: block;
-	color: $text-grey;
-	font-size: .8rem;
-	text-align: center;
-	max-width: 25ch;
-	margin: 0 auto $base-line-height auto;
+	width: auto;
+	margin: 0 0 $base-line-height/2 0;
+	height: 12rem;
+	border-radius: 2%;
 }
 
 .about-bit {
