@@ -119,9 +119,9 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-clock-banner.PNG");
+  background-image: url("../media/sea-professional-banner.PNG");
   background-size: cover;
-  background-position: center; }
+  background-position: bottom; }
 
 .banner {
   padding: 10vh 2rem 20vh 2rem; }
@@ -227,9 +227,9 @@ header {
     background-color: #2db3d4; }
 
   .siteNavigation {
-    background-image: url("../media/sea-clock-banner.PNG");
+    background-image: url("../media/sea-professional-banner.PNG");
     background-size: cover;
-    background-position: top; }
+    background-position: left; }
 
   .directory-links, .directory-title {
     max-width: 55ch;
