@@ -1,5 +1,5 @@
 .banner {
-  padding: 10vh 25vw 40vh 25vw;
+  padding: 10vh 25vw 50vh 25vw;
 }
 
 .banner-title {
@@ -19,9 +19,23 @@
 	}
 }
 
+.missed-text {
+	font-size: 2rem;
+	display: block;
+	text-align: center;
+}
+
+.missed-cta {
+	transition-property: background-color;
+	transition: .15s all ease-in-out;
+	&:hover {
+		background-color: #a586fa;
+	}
+}
+
 // HEADER OVERRIDES
 .siteNavigation {
-	background-image: url("../media/sea-professional-banner.PNG");
+	background-image: url("../media/sea-testing-banner.PNG");
 	background-size: cover;
 	background-position: left; 
 }

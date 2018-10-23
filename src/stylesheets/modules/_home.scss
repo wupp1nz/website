@@ -1,5 +1,5 @@
 header {
-  background-image: url("../media/sea-professional-banner.PNG");
+  background-image: url("../media/sea-testing-banner.PNG");
   background-size: cover;
   background-position: bottom; 
 }
@@ -27,7 +27,7 @@ header {
   margin: 0 auto $base-line-height*2 auto;
 }
 
-.banner-cta {
+.banner-cta, .missed-cta {
 	display: block;
 	text-align: center;
 	font-weight: bold;
@@ -37,6 +37,24 @@ header {
 	padding: .75rem 0;
 	background-color: #2db3d4;
 	margin: 0 auto;
+}
+
+.missed {
+  padding: 20vh 2rem;
+  font-weight: bold;
+  background-color: #003d87;
+}
+
+.missed-text {
+  display: block;
+  text-align: center;
+  color: $text-light;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.missed-cta {
+  background-color: #7957f5;
 }
 
 // HEADER OVERRIDES
