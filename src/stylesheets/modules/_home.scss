@@ -40,9 +40,13 @@ header {
 }
 
 .missed {
-  padding: 20vh 2rem;
+  padding: 15vh 1rem;
   font-weight: bold;
+  margin: -1px 0;
   background-color: #003d87;
+  background-image: url("../media/sea-meeting-software-design-patterns.png");
+  background-size: cover;
+  background-position: left;
 }
 
 .missed-text {

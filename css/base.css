@@ -155,9 +155,13 @@ header {
   margin: 0 auto; }
 
 .missed {
-  padding: 20vh 2rem;
+  padding: 15vh 1rem;
   font-weight: bold;
-  background-color: #003d87; }
+  margin: -1px 0;
+  background-color: #003d87;
+  background-image: url("../media/sea-meeting-software-design-patterns.png");
+  background-size: cover;
+  background-position: left; }
 
 .missed-text {
   display: block;
@@ -240,6 +244,9 @@ header {
     transition: .15s all ease-in-out; }
   .banner-cta:hover {
     background-color: #2db3d4; }
+
+  .missed {
+    padding: 30vh 2rem; }
 
   .missed-text {
     font-size: 2rem;
