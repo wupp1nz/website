@@ -119,9 +119,10 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-testing-banner.PNG");
+  background-image: url("../media/sea-fall-checkpoint-banner.PNG");
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  height: 101vh; }
 
 .banner {
   padding: 10vh 2rem 20vh 2rem; }
@@ -260,7 +261,7 @@ header {
     background-color: #a586fa; }
 
   .siteNavigation {
-    background-image: url("../media/sea-testing-banner.PNG");
+    background-image: url("../media/sea-fall-checkpoint-banner.PNG");
     background-size: cover;
     background-position: left; }
 
