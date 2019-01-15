@@ -38,6 +38,7 @@ header {
 	padding: .75rem 0;
 	background-color: #2db3d4;
 	margin: 0 auto;
+  font-family: $heading-fonts;
 }
 
 .missed {
@@ -47,6 +48,7 @@ header {
   background-color: #003d87;
   background-image: url("../media/sea-meeting-software-design-patterns.png");
   background-size: cover;
+  font-family: $heading-fonts;
   background-position: left;
 }
 

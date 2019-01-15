@@ -28,3 +28,24 @@
 	color: $text-grey;
 	margin-bottom: 1rem;
 }
+
+.join-chapter, .join-view, .join-description {
+	display: block;
+	line-height: 1.15;
+}
+
+.join-image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: $base-line-height/2;
+}
+
+.join-title {
+	margin-bottom: $base-line-height/4;
+	letter-spacing: -1px;
+}
+
+.join-description {
+	margin-bottom: $base-line-height*2;
+}

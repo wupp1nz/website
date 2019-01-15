@@ -1,5 +1,23 @@
 .join {
-	max-width: 55ch;
+	max-width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.join-view, .join-description {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+}
+
+.join-chapter {
+	margin-bottom: $base-line-height*4;
+}
+
+.join-description {
+	padding-left: 2rem;
+}
+
+.join-flip {
+	padding-left: 0;
 }
