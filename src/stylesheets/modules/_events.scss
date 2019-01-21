@@ -5,11 +5,12 @@
 
 .event {
 	display: block;
-	margin-bottom: $base-line-height*2;
+	margin-bottom: $base-line-height*3;
 }
 
 .event-title {
-	font-size: 1.35rem;
+	margin-bottom: $base-line-height/4;
+	letter-spacing: -1px;
 }
 
 .event-image {
@@ -21,13 +22,13 @@
 
 .event-date, .event-location {
 	display: block;
-	color: $text-dark;
+	color: rgba(18, 18, 58, 0.5);
 	font-weight: bold;
-	font-size: .8rem;
+	margin-bottom: 0;
 }
 
 .event-text {
-	margin-top: $base-line-height;
+	margin-top: $base-line-height/2;
 }
 
 .event-text-urgent {

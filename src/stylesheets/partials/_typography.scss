@@ -46,7 +46,7 @@ html {
 
 body {
     text-rendering: optimizeSpeed;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-family: $body-fonts;
     color: $text-dark;
 }
@@ -69,6 +69,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $heading-fonts;
+    margin-bottom: $base-line-height;
 }
 
 // Based on Major Third scale.

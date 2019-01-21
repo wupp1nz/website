@@ -21,7 +21,7 @@
 
 .mentor {
 	display: block;
-	margin-bottom: $base-line-height;
+	margin-bottom: $base-line-height*2;
 }
 
 .mentor-name {
@@ -34,6 +34,7 @@
 
 .mentor-title {
 	color: #2db3d4;
+	margin-bottom: 0;
 }
 
 .mentor:last-of-type {

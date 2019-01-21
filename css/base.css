@@ -27,7 +27,7 @@ html {
 
 body {
   text-rendering: optimizeSpeed;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-family: "Open Sans", sans-serif;
   color: rgba(18, 18, 18, 0.92); }
 
@@ -44,7 +44,8 @@ p {
   hyphens: auto; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 1.5rem; }
 
 h1 {
   font-size: 2.441em; }
@@ -123,7 +124,7 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-side-projects-banner.PNG");
+  background-image: url("../media/sea-staircase-banner.PNG");
   background-size: cover;
   background-position: bottom;
   height: 101vh; }
@@ -267,9 +268,9 @@ header {
     background-color: #a586fa; }
 
   .siteNavigation {
-    background-image: url("../media/sea-side-projects-banner.PNG");
+    background-image: url("../media/sea-staircase-banner.PNG");
     background-size: cover;
-    background-position: left; }
+    background-position: bottom; }
 
   .directory-links, .directory-title {
     max-width: 55ch;
