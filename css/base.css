@@ -124,9 +124,9 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-staircase-banner.PNG");
+  background-image: url("../media/sea-interview-banner.PNG");
   background-size: cover;
-  background-position: bottom;
+  background-position: left;
   height: 101vh; }
 
 .banner {
@@ -166,10 +166,10 @@ header {
   font-weight: bold;
   margin: -1px 0;
   background-color: #003d87;
-  background-image: url("../media/sea-meeting-software-design-patterns.png");
+  background-image: url("../media/spring_1_kickoff_2.png");
   background-size: cover;
   font-family: "Noto Sans", sans-serif;
-  background-position: left; }
+  background-position: bottom; }
 
 .missed-text {
   display: block;
@@ -268,9 +268,9 @@ header {
     background-color: #a586fa; }
 
   .siteNavigation {
-    background-image: url("../media/sea-staircase-banner.PNG");
+    background-image: url("../media/sea-interview-banner.PNG");
     background-size: cover;
-    background-position: bottom; }
+    background-position: top; }
 
   .directory-links, .directory-title {
     max-width: 55ch;
