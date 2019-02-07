@@ -1,6 +1,12 @@
 .events {
 	display: block;
 	margin: $base-line-height*2 1rem;
+	h2 {
+		letter-spacing: -3px;
+		text-align: center;
+		opacity: 0.5;
+		font-size: 3rem;
+	}
 }
 
 .event {

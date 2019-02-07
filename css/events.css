@@ -126,6 +126,11 @@ ul {
 .events {
   display: block;
   margin: 3rem 1rem; }
+.events h2 {
+  letter-spacing: -3px;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 3rem; }
 
 .event {
   display: block;
