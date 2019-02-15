@@ -124,9 +124,9 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-projects-banner.PNG");
+  background-image: url("../media/sea-whiteboarding-banner.PNG");
   background-size: cover;
-  background-position: center;
+  background-position: left;
   height: 101vh; }
 
 .banner {
@@ -268,7 +268,7 @@ header {
     background-color: #a586fa; }
 
   .siteNavigation {
-    background-image: url("../media/sea-projects-banner.PNG");
+    background-image: url("../media/sea-whiteboarding-banner.PNG");
     background-size: cover;
     background-position: top; }
 
