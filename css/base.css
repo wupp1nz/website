@@ -149,7 +149,7 @@ header {
   max-width: 50ch;
   margin: 0 auto 3rem auto; }
 
-.banner-cta, .missed-cta {
+.banner-cta, .missed-cta, .mentorship-connect {
   display: block;
   text-align: center;
   font-weight: bold;
@@ -169,7 +169,9 @@ header {
   background-image: url("../media/interview_prep_1.png");
   background-size: cover;
   font-family: "Noto Sans", sans-serif;
-  background-position: bottom; }
+  background-position: bottom;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0); }
 
 .missed-text {
   display: block;
@@ -180,6 +182,53 @@ header {
 
 .missed-cta {
   background-color: #7957f5; }
+
+.mentorship {
+  padding: 7rem 1rem;
+  margin: -1px 0;
+  position: relative; }
+.mentorship svg {
+  display: inline-block;
+  width: 4rem;
+  height: auto;
+  position: absolute;
+  text-align: center; }
+
+.book {
+  top: -7%;
+  left: 5%;
+  transform: rotateZ(29deg);
+  fill: url(#orangegradient) #333;
+  opacity: 0; }
+
+svg.team {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  fill: url(#bluegradient) #333;
+  width: 6rem; }
+
+.code {
+  top: -7%;
+  right: 5%;
+  transform: rotateZ(-29deg);
+  fill: url(#orangegradient) #333;
+  opacity: 0; }
+
+.mentorship-title {
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 0.75rem; }
+
+.mentorship-description {
+  display: block;
+  margin-bottom: 1.5rem;
+  text-align: center; }
+
+.mentorship-connect {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); }
 
 .siteNavigation-links {
   background: transparent; }
@@ -237,6 +286,9 @@ header {
   .siteNavigation-link:hover {
     border-bottom: 0.375rem solid #2db3d4; }
 
+  body {
+    overflow-x: hidden; }
+
   .banner {
     padding: 10vh 25vw 50vh 25vw; }
 
@@ -266,6 +318,38 @@ header {
     transition: .15s all ease-in-out; }
   .missed-cta:hover {
     background-color: #a586fa; }
+
+  .mentorship {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60ch;
+    padding-top: 10rem;
+    display: block; }
+
+  .mentorship-title {
+    letter-spacing: -2px;
+    padding-top: 0.75rem; }
+
+  svg.book {
+    opacity: 1;
+    top: 2%;
+    left: 5%;
+    width: 8rem;
+    transform: rotateZ(15deg);
+    opacity: .7; }
+
+  svg.team {
+    top: 11%;
+    width: 10rem; }
+
+  svg.code {
+    opacity: 1;
+    top: 2%;
+    left: 76%;
+    right: 0;
+    width: 8rem;
+    transform: rotateZ(-15deg);
+    opacity: .7; }
 
   .siteNavigation {
     background-image: url("../media/sea-whiteboarding-banner.PNG");

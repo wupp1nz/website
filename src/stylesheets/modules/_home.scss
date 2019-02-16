@@ -28,7 +28,7 @@ header {
   margin: 0 auto $base-line-height*2 auto;
 }
 
-.banner-cta, .missed-cta {
+.banner-cta, .missed-cta, .mentorship-connect {
 	display: block;
 	text-align: center;
 	font-weight: bold;
@@ -50,6 +50,8 @@ header {
   background-size: cover;
   font-family: $heading-fonts;
   background-position: bottom;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
 
 .missed-text {
@@ -63,6 +65,66 @@ header {
 .missed-cta {
   background-color: #7957f5;
 }
+
+.mentorship {
+  padding: 7rem 1rem;
+  margin: -1px 0;
+  position: relative;
+  svg {
+    display: inline-block;
+    width: 4rem;
+    height: auto;
+    position: absolute;
+    text-align: center;
+  }
+}
+
+.book {
+  top: -7%;
+  left: 5%;
+  -webkit-transform: rotateY(29deg);
+  transform: rotateZ(29deg);
+  fill: url(#orangegradient) #333;
+  opacity: 0;
+}
+
+
+svg.team {
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  fill: url(#bluegradient) #333;
+  width: 6rem;
+}
+
+.code {
+  top: -7%;
+  right: 5%;
+  -webkit-transform: rotateY(-29deg);
+  transform: rotateZ(-29deg);
+  fill: url(#orangegradient) #333;
+  opacity: 0;
+}
+
+.mentorship-title {
+  font-family: $heading-fonts;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: $base-line-height/2;
+}
+
+.mentorship-description {
+  display: block;
+  margin-bottom: $base-line-height;
+  text-align: center;
+}
+
+.mentorship-connect {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
 
 // HEADER OVERRIDES
 

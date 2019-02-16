@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .banner {
   padding: 10vh 25vw 50vh 25vw;
 }
@@ -36,6 +40,46 @@
 		background-color: #a586fa;
 	}
 }
+
+.mentorship {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60ch;
+	padding-top: 10rem;
+	display: block;
+}
+
+.mentorship-title {
+	letter-spacing: -2px;
+	padding-top: $base-line-height/2;
+}
+
+svg.book {
+	opacity: 1;
+	top: 2%;
+	left: 5%;
+	width: 8rem;
+	-webkit-transform: rotateY(15deg);
+	transform: rotateZ(15deg);
+	opacity: .7;
+}
+
+svg.team {
+	top: 11%;
+	width: 10rem;
+}
+
+svg.code {
+	opacity: 1;
+	top: 2%;
+	left: 76%;
+	right: 0;
+	width: 8rem;
+	-webkit-transform: rotateY(-15deg);
+	transform: rotateZ(-15deg);
+	opacity: .7;
+}
+
 
 // HEADER OVERRIDES
 .siteNavigation {
