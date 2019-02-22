@@ -124,9 +124,9 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-whiteboarding-banner.PNG");
+  background-image: url("../media/sea-quantiacs-banner.PNG");
   background-size: cover;
-  background-position: left;
+  background-position: center;
   height: 101vh; }
 
 .banner {
@@ -352,7 +352,7 @@ svg.team {
     opacity: .7; }
 
   .siteNavigation {
-    background-image: url("../media/sea-whiteboarding-banner.PNG");
+    background-image: url("../media/sea-quantiacs-banner.PNG");
     background-size: cover;
     background-position: top; }
 
