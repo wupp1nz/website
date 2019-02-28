@@ -29,7 +29,8 @@ body {
   text-rendering: optimizeSpeed;
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-family: "Open Sans", sans-serif;
-  color: rgba(18, 18, 18, 0.92); }
+  color: rgba(18, 18, 18, 0.92);
+  background: #f4f4f4; }
 
 p {
   max-width: 66ch;
@@ -194,26 +195,12 @@ header {
   position: absolute;
   text-align: center; }
 
-.book {
-  top: -7%;
-  left: 5%;
-  transform: rotateZ(29deg);
-  fill: url(#orangegradient) #333;
-  opacity: 0; }
-
 svg.team {
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
   fill: url(#bluegradient) #333;
   width: 6rem; }
-
-.code {
-  top: -7%;
-  right: 5%;
-  transform: rotateZ(-29deg);
-  fill: url(#orangegradient) #333;
-  opacity: 0; }
 
 .mentorship-title {
   font-family: "Noto Sans", sans-serif;
@@ -227,8 +214,59 @@ svg.team {
   text-align: center; }
 
 .mentorship-connect {
-  background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); }
+  background-color: #a586fa; }
+
+.projects {
+  display: block;
+  position: relative;
+  margin-top: 10vh;
+  padding: 0 1rem 10vh 1rem; }
+.projects svg {
+  width: 4rem;
+  height: auto;
+  position: absolute; }
+
+svg.projects-icon {
+  top: -17%;
+  left: 50%;
+  transform: translateX(-50%);
+  fill: url(#bluegradient) #333;
+  width: 6rem; }
+
+.projects-title {
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 1.5rem; }
+
+.projects-all {
+  display: block;
+  opacity: 0.8;
+  text-align: center;
+  font-weight: bold; }
+
+.project {
+  display: block;
+  margin: 0 auto 3rem auto;
+  padding: 0.75rem 1rem 1.5rem 1rem;
+  background: #fff;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to left, #B721FF 0%, #21D4FD 100%);
+  border-image-slice: 1;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.18);
+  max-width: 40ch; }
+
+.project-title {
+  letter-spacing: -1px;
+  font-size: 1.35rem;
+  margin-bottom: 0.375rem; }
+
+.project-by {
+  opacity: .7;
+  display: block;
+  margin-bottom: 1.5rem; }
+
+.project-link {
+  display: block; }
 
 .siteNavigation-links {
   background: transparent; }
@@ -324,32 +362,71 @@ svg.team {
     margin-right: auto;
     max-width: 60ch;
     padding-top: 10rem;
-    display: block; }
+    display: block;
+    margin-bottom: 6rem; }
 
   .mentorship-title {
     letter-spacing: -2px;
     padding-top: 0.75rem; }
 
-  svg.book {
-    opacity: 1;
-    top: 2%;
-    left: 5%;
-    width: 8rem;
-    transform: rotateZ(15deg);
-    opacity: .7; }
-
   svg.team {
     top: 11%;
     width: 10rem; }
 
-  svg.code {
-    opacity: 1;
-    top: 2%;
-    left: 76%;
-    right: 0;
-    width: 8rem;
-    transform: rotateZ(-15deg);
-    opacity: .7; }
+  .mentorship-connect {
+    transition-duration: .25s;
+    transition-timing-function: ease-out;
+    transition-property: transform;
+    background-color: #7957f5; }
+  .mentorship-connect:hover {
+    background-color: #a586fa;
+    transform: translateY(-1px); }
+
+  .projects {
+    padding: 10vh 2rem 20vh 2rem; }
+
+  svg.projects-icon {
+    top: -10%;
+    width: 8rem; }
+
+  .projects-title {
+    margin-bottom: 3rem;
+    padding-top: 1rem; }
+
+  .project, .projects-all {
+    transition-duration: .25s;
+    transition-timing-function: ease-out; }
+
+  .project {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    transition-property: border-bottom, transform;
+    border-image: none;
+    border-bottom: 10px solid #fff; }
+  .project:nth-child(odd):hover {
+    border-image: linear-gradient(to left, #21D4FD 0%, #B721FF 100%); }
+  .project:hover {
+    border-image: linear-gradient(to left, #B721FF 0%, #21D4FD 100%);
+    border-image-slice: 1;
+    transform: translateY(-2px);
+    border-bottom: 10px solid transparent; }
+
+  .project-title {
+    font-size: 1.2rem; }
+
+  .projects-all {
+    display: inline-block;
+    width: 30%;
+    opacity: 0.8;
+    margin-top: 4rem;
+    vertical-align: text-top;
+    color: #21D4FD;
+    transition-property: font-size; }
+  .projects-all:hover {
+    font-size: 1.35rem; }
 
   .siteNavigation {
     background-image: url("../media/sea-quantiacs-banner.PNG");

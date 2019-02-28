@@ -79,16 +79,6 @@ header {
   }
 }
 
-.book {
-  top: -7%;
-  left: 5%;
-  -webkit-transform: rotateY(29deg);
-  transform: rotateZ(29deg);
-  fill: url(#orangegradient) #333;
-  opacity: 0;
-}
-
-
 svg.team {
   top: 10%;
   left: 50%;
@@ -98,14 +88,6 @@ svg.team {
   width: 6rem;
 }
 
-.code {
-  top: -7%;
-  right: 5%;
-  -webkit-transform: rotateY(-29deg);
-  transform: rotateZ(-29deg);
-  fill: url(#orangegradient) #333;
-  opacity: 0;
-}
 
 .mentorship-title {
   font-family: $heading-fonts;
@@ -121,8 +103,71 @@ svg.team {
 }
 
 .mentorship-connect {
-  background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-color: #a586fa;
+}
+
+.projects {
+  display: block;
+  position: relative;
+  margin-top: 10vh;
+  padding: 0 1rem 10vh 1rem;
+  svg {
+    width: 4rem;
+    height: auto;
+    position: absolute;
+  }
+}
+
+svg.projects-icon {
+  top: -17%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  fill: url(#bluegradient) #333;
+  width: 6rem;
+}
+
+.projects-title {
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: $base-line-height;
+}
+
+.projects-all {
+  display: block;
+  opacity: 0.8;
+  text-align: center;
+  font-weight: bold;
+}
+
+.project {
+  display: block;
+  margin: 0 auto $base-line-height*2 auto;
+  padding: $base-line-height/2 1rem $base-line-height 1rem;
+  background: #fff;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to left, #B721FF 0%, #21D4FD 100%);
+  border-image-slice: 1;
+  -moz-box-shadow: 0px 10px 10px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.18);
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.18);
+  max-width: 40ch;
+}
+
+.project-title {
+  letter-spacing: -1px;
+  font-size: 1.35rem;
+  margin-bottom: $base-line-height/4;
+}
+
+.project-by {
+  opacity: .7;
+  display: block;
+  margin-bottom: $base-line-height;
+}
+
+.project-link {
+  display: block;
 }
 
 
