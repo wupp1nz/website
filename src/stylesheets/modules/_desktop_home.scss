@@ -17,7 +17,8 @@ body {
 .banner-cta {
 	background-color: #269ab7;
 	transition-property: background-color;
-	transition: .15s all ease-in-out;
+	transition-duration: .25s;
+	transition-timing-function: ease-out;
 	&:hover {
 		background-color: #2db3d4;
 	}
@@ -35,7 +36,8 @@ body {
 
 .missed-cta {
 	transition-property: background-color;
-	transition: .15s all ease-in-out;
+	transition-duration: .25s;
+	transition-timing-function: ease-out;
 	&:hover {
 		background-color: #a586fa;
 	}
@@ -82,8 +84,13 @@ svg.projects-icon {
 }
 
 .projects-title {
-	margin-bottom: $base-line-height*2;
+	margin-bottom: .75rem;
 	padding-top: 1rem;
+}
+
+.projects-description {
+	max-width: 60ch;
+	margin:  0 auto $base-line-height auto;
 }
 
 .project, .projects-all {
@@ -116,12 +123,11 @@ svg.projects-icon {
 }
 
 .projects-all {
-	display: inline-block;
-	width: 30%;
+	display: block;
+	width: 40%;
 	opacity: 0.8;
-	margin-top: 4rem;
+	margin: 4rem auto 0 auto;
 	vertical-align: text-top;
-	color: #21D4FD;
 	transition-property: font-size;
 	&:hover {
 		font-size: 1.35rem;
@@ -132,7 +138,7 @@ svg.projects-icon {
 
 // HEADER OVERRIDES
 .siteNavigation {
-	background-image: url("../media/sea-quantiacs-banner.PNG");
+	background-image: url("../media/sea-crumble-banner.PNG");
 	background-size: cover;
 	background-position: top; 
 }

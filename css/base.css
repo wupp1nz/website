@@ -125,7 +125,7 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-quantiacs-banner.PNG");
+  background-image: url("../media/sea-crumble-banner.PNG");
   background-size: cover;
   background-position: center;
   height: 101vh; }
@@ -170,9 +170,7 @@ header {
   background-image: url("../media/interview_prep_1.png");
   background-size: cover;
   font-family: "Noto Sans", sans-serif;
-  background-position: bottom;
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0); }
+  background-position: bottom; }
 
 .missed-text {
   display: block;
@@ -226,6 +224,10 @@ svg.team {
   height: auto;
   position: absolute; }
 
+.projects-description {
+  display: block;
+  margin-bottom: 3rem; }
+
 svg.projects-icon {
   top: -17%;
   left: 50%;
@@ -236,7 +238,7 @@ svg.projects-icon {
 .projects-title {
   text-align: center;
   letter-spacing: -1px;
-  margin-bottom: 1.5rem; }
+  margin-bottom: .75rem; }
 
 .projects-all {
   display: block;
@@ -339,7 +341,8 @@ svg.projects-icon {
   .banner-cta {
     background-color: #269ab7;
     transition-property: background-color;
-    transition: .15s all ease-in-out; }
+    transition-duration: .25s;
+    transition-timing-function: ease-out; }
   .banner-cta:hover {
     background-color: #2db3d4; }
 
@@ -353,7 +356,8 @@ svg.projects-icon {
 
   .missed-cta {
     transition-property: background-color;
-    transition: .15s all ease-in-out; }
+    transition-duration: .25s;
+    transition-timing-function: ease-out; }
   .missed-cta:hover {
     background-color: #a586fa; }
 
@@ -390,8 +394,12 @@ svg.projects-icon {
     width: 8rem; }
 
   .projects-title {
-    margin-bottom: 3rem;
+    margin-bottom: .75rem;
     padding-top: 1rem; }
+
+  .projects-description {
+    max-width: 60ch;
+    margin: 0 auto 1.5rem auto; }
 
   .project, .projects-all {
     transition-duration: .25s;
@@ -418,18 +426,17 @@ svg.projects-icon {
     font-size: 1.2rem; }
 
   .projects-all {
-    display: inline-block;
-    width: 30%;
+    display: block;
+    width: 40%;
     opacity: 0.8;
-    margin-top: 4rem;
+    margin: 4rem auto 0 auto;
     vertical-align: text-top;
-    color: #21D4FD;
     transition-property: font-size; }
   .projects-all:hover {
     font-size: 1.35rem; }
 
   .siteNavigation {
-    background-image: url("../media/sea-quantiacs-banner.PNG");
+    background-image: url("../media/sea-crumble-banner.PNG");
     background-size: cover;
     background-position: top; }
 

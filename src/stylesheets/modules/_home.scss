@@ -1,7 +1,7 @@
 header {
-  background-image: url("../media/sea-quantiacs-banner.PNG");
+  background-image: url("../media/sea-crumble-banner.PNG");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   height: 101vh;
 }
 
@@ -50,8 +50,6 @@ header {
   background-size: cover;
   font-family: $heading-fonts;
   background-position: bottom;
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
 
 .missed-text {
@@ -118,6 +116,11 @@ svg.team {
   }
 }
 
+.projects-description {
+  display: block;
+  margin-bottom: $base-line-height*2;
+}
+
 svg.projects-icon {
   top: -17%;
   left: 50%;
@@ -130,7 +133,7 @@ svg.projects-icon {
 .projects-title {
   text-align: center;
   letter-spacing: -1px;
-  margin-bottom: $base-line-height;
+  margin-bottom: .75rem;
 }
 
 .projects-all {
