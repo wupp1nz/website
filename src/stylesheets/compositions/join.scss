@@ -5,6 +5,7 @@
 
 @import "../modules/siteNavigation";
 @import "../modules/join";
+@import "../modules/eboard";
 @import "../modules/directory";
 
 @media screen and (min-width: $res-tablet) {
@@ -21,5 +22,6 @@
 
     @import "../modules/desktop_siteNavigation";
     @import "../modules/desktop_join";
+    @import "../modules/desktop_eboard";
     @import "../modules/desktop_directory";
 }

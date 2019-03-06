@@ -126,7 +126,7 @@ ul {
 
 .join {
   display: block;
-  margin: 3rem 1rem 6rem 1rem; }
+  margin: 3rem 1rem; }
 
 .join svg {
   width: 2rem;
@@ -167,9 +167,35 @@ ul {
 .join-description {
   margin-bottom: 3rem; }
 
+.eboard {
+  display: block;
+  padding: 0 1rem;
+  margin-bottom: 3rem; }
+
+.eboard-title {
+  border-top: 8px solid #2db3d4;
+  padding-top: 8px;
+  letter-spacing: -2px; }
+
+.eboard-about {
+  margin-bottom: 1.5rem; }
+
+.eboard-link {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f7f7f7;
+  max-width: 20ch;
+  padding: .75rem 1rem;
+  background-color: #2db3d4;
+  margin: 0 auto;
+  font-family: "Noto Sans", sans-serif; }
+
 .directory {
   background: rgba(18, 18, 18, 0.92);
-  padding: 3rem 2rem; }
+  padding: 3rem 2rem;
+  clear: both; }
 
 .directory-title {
   color: gray;
@@ -233,17 +259,27 @@ ul {
   .join-chapter {
     margin-bottom: 6rem; }
 
-  .join-description {
-    padding-left: 2rem; }
-
   .join-flip {
     padding-left: 0; }
+
+  .eboard {
+    max-width: 55ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0; }
+
+  .eboard-title {
+    font-size: 1.6rem; }
+
+  .eboard-about {
+    margin-bottom: 3rem; }
 
   .directory-links, .directory-title {
     max-width: 55ch;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Noto Sans", sans-serif; }
+    font-family: "Noto Sans", sans-serif;
+    clear: both; }
 
   .directory-title {
     margin-bottom: 1.5rem; }

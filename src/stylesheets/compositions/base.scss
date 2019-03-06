@@ -5,6 +5,7 @@
 
 @import "../modules/siteNavigation";
 @import "../modules/home";
+@import "../modules/eboard";
 @import "../modules/directory";
 
 
@@ -22,5 +23,6 @@
 
     @import "../modules/desktop_siteNavigation";
     @import "../modules/desktop_home";
+    @import "../modules/desktop_eboard";
     @import "../modules/desktop_directory";
 }
