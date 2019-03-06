@@ -133,6 +133,13 @@ ul {
   opacity: 0.5;
   font-size: 3rem; }
 
+.eboard-link {
+  padding: 2rem 1rem 0 1rem;
+  display: block;
+  max-width: 50ch;
+  margin: 0 auto;
+  text-align: center; }
+
 .event {
   display: block;
   margin-bottom: 4.5rem; }
@@ -176,7 +183,8 @@ ul {
 
 .directory {
   background: rgba(18, 18, 18, 0.92);
-  padding: 3rem 2rem; }
+  padding: 3rem 2rem;
+  clear: both; }
 
 .directory-title {
   color: gray;
@@ -238,7 +246,8 @@ ul {
     max-width: 55ch;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Noto Sans", sans-serif; }
+    font-family: "Noto Sans", sans-serif;
+    clear: both; }
 
   .directory-title {
     margin-bottom: 1.5rem; }

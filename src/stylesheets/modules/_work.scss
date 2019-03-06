@@ -37,6 +37,7 @@
 
 .work-title {
 	letter-spacing: -1px;
+	margin-bottom: $base-line-height/6;
 }
 
 .work-image {
@@ -53,6 +54,7 @@
 .work-lead {
 	font-size: 1.25rem;
 	color: $text-grey;
+	margin-bottom: 0rem;
 }
 
 .work-topics, .work-skills {

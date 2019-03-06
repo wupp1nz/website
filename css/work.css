@@ -154,7 +154,8 @@ ul {
   margin-bottom: 3rem; }
 
 .work-title {
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+  margin-bottom: 0.25rem; }
 
 .work-image {
   width: 100%;
@@ -167,14 +168,16 @@ ul {
 
 .work-lead {
   font-size: 1.25rem;
-  color: gray; }
+  color: gray;
+  margin-bottom: 0rem; }
 
 .work-topics, .work-skills {
   display: block; }
 
 .directory {
   background: rgba(18, 18, 18, 0.92);
-  padding: 3rem 2rem; }
+  padding: 3rem 2rem;
+  clear: both; }
 
 .directory-title {
   color: gray;
@@ -237,7 +240,8 @@ ul {
     max-width: 55ch;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Noto Sans", sans-serif; }
+    font-family: "Noto Sans", sans-serif;
+    clear: both; }
 
   .directory-title {
     margin-bottom: 1.5rem; }
