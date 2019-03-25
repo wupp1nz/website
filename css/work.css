@@ -1,5 +1,5 @@
 /* reset.scss - CSS reset */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Noto+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700");
 * {
   padding: 0;
   margin: 0;
@@ -44,7 +44,7 @@ p {
   hyphens: auto; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 1.5rem; }
 
 h1 {
@@ -98,7 +98,7 @@ ul {
 .siteNavigation-links {
   display: block;
   background: rgba(18, 18, 18, 0.92);
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 .siteNavigation-logo {
   width: 33%;
@@ -240,7 +240,7 @@ ul {
     max-width: 55ch;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     clear: both; }
 
   .directory-title {

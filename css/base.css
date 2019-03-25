@@ -1,6 +1,6 @@
 /* base.scss - example composition. Will be converted --> base.min.css (and base.css for debugging) */
 /* reset.scss - CSS reset */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Noto+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700");
 * {
   padding: 0;
   margin: 0;
@@ -45,7 +45,7 @@ p {
   hyphens: auto; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 1.5rem; }
 
 h1 {
@@ -99,7 +99,7 @@ ul {
 .siteNavigation-links {
   display: block;
   background: rgba(18, 18, 18, 0.92);
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 .siteNavigation-logo {
   width: 33%;
@@ -125,7 +125,7 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-cloud-banner.PNG");
+  background-image: url("../media/sea-speaking-banner.PNG");
   background-size: cover;
   background-position: center;
   height: 101vh; }
@@ -160,7 +160,7 @@ header {
   padding: .75rem 0;
   background-color: #2db3d4;
   margin: 0 auto;
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 .missed {
   padding: 15vh 1rem;
@@ -169,7 +169,7 @@ header {
   background-color: #003d87;
   background-image: url("../media/interview_prep_1.png");
   background-size: cover;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-position: bottom; }
 
 .missed-text {
@@ -201,7 +201,7 @@ svg.team {
   width: 6rem; }
 
 .mentorship-title {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: -1px;
   text-align: center;
   margin-bottom: 0.75rem; }
@@ -296,7 +296,7 @@ svg.projects-icon {
   padding: .75rem 1rem;
   background-color: #2db3d4;
   margin: 0 auto;
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 .directory {
   background: rgba(18, 18, 18, 0.92);
@@ -359,7 +359,7 @@ svg.projects-icon {
     padding: 10vh 25vw 50vh 25vw; }
 
   .banner-title {
-    font-size: 1.5rem; }
+    font-size: 2.4rem; }
 
   .banner-description {
     font-size: 1.5rem; }
@@ -462,7 +462,7 @@ svg.projects-icon {
     font-size: 1.35rem; }
 
   .siteNavigation {
-    background-image: url("../media/sea-cloud-banner.PNG");
+    background-image: url("../media/sea-speaking-banner.PNG");
     background-size: cover;
     background-position: top; }
 
@@ -482,7 +482,7 @@ svg.projects-icon {
     max-width: 55ch;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     clear: both; }
 
   .directory-title {
