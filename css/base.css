@@ -125,7 +125,7 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-break-banner.PNG");
+  background-image: url("../media/sea-interview-banner.PNG");
   background-size: cover;
   background-position: center;
   height: 101vh; }
@@ -462,7 +462,7 @@ svg.projects-icon {
     font-size: 1.35rem; }
 
   .siteNavigation {
-    background-image: url("../media/sea-break-banner.PNG");
+    background-image: url("../media/sea-interview-banner.PNG");
     background-size: cover;
     background-position: top; }
 
