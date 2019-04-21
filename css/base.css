@@ -125,9 +125,9 @@ ul {
   color: #2db3d4; }
 
 header {
-  background-image: url("../media/sea-voting-banner.PNG");
+  background-image: url("../media/sea-coins-banner.PNG");
   background-size: cover;
-  background-position: center;
+  background-position: left;
   height: 101vh; }
 
 .banner {
@@ -462,7 +462,7 @@ svg.projects-icon {
     font-size: 1.35rem; }
 
   .siteNavigation {
-    background-image: url("../media/sea-voting-banner.PNG");
+    background-image: url("../media/sea-coins-banner.PNG");
     background-size: cover;
     background-position: center; }
 
