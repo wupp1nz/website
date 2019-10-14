@@ -372,6 +372,11 @@ svg.projects-icon {
   .banner-cta:hover {
     background-color: #2db3d4; }
 
+  .banner-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; }
+
   .missed {
     padding: 30vh 2rem; }
 
