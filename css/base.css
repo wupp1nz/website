@@ -147,8 +147,9 @@ header {
 .banner-description {
   color: white;
   box-sizing: border-box;
-  max-width: 50ch;
-  margin: 0 auto 3rem auto; }
+  max-width: 100ch;
+  margin: 0 auto 3rem auto; 
+  margin-left: 5rem;}
 
 .banner-cta, .missed-cta, .mentorship-connect {
   display: block;
