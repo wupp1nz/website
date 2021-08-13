@@ -519,4 +519,6 @@ svg.projects-icon {
     color: gray; }
   .directory-link:hover {
     color: #f7f7f7;
-    border-left: 0.375rem solid #2db3d4; } }
+    border-left: 0.375rem solid #2db3d4; }
+  
+  }
