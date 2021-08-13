@@ -149,9 +149,9 @@ header {
   box-sizing: border-box;
   max-width: 100ch;
   margin: 0 auto 3rem auto; 
-  margin-left: 14rem;}
+  /*margin-left: 14rem;*/}
 
-.banner-cta, .missed-cta, .mentorship-connect {
+.banner-cta {
   display: block;
   text-align: center;
   font-weight: bold;
@@ -161,7 +161,21 @@ header {
   padding: .75rem 0;
   background-color: #2db3d4;
   margin: 0 auto;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  margin-left: 0rem;}
+
+.missed-cta, .mentorship-connect {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f7f7f7;
+  max-width: 20ch;
+  padding: .75rem 0;
+  background-color: #2db3d4;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  margin-left: 24.25em;}
 
 .missed {
   padding: 15vh 1rem;
@@ -505,4 +519,6 @@ svg.projects-icon {
     color: gray; }
   .directory-link:hover {
     color: #f7f7f7;
-    border-left: 0.375rem solid #2db3d4; } }
+    border-left: 0.375rem solid #2db3d4; }
+  
+  }
