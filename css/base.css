@@ -131,7 +131,8 @@ header {
   height: 101vh; }
 
 .banner {
-  padding: 10vh 2rem 20vh 2rem; }
+  padding: 10vh 0rem 20vh 2rem; 
+}
 
 .banner-title {
   display: block;
@@ -139,7 +140,7 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   font-variant: small-caps;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   color: #f7f7f7;
   max-width: 50ch;
   margin: 0 auto 1.5rem; }
@@ -163,6 +164,10 @@ header {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
   margin-left: 0rem;}
+
+.instagram{
+  margin-left: 35rem;
+}  
 
 .missed-cta, .mentorship-connect {
   display: block;
@@ -371,10 +376,10 @@ svg.projects-icon {
     overflow-x: hidden; }
 
   .banner {
-    padding: 10vh 25vw 50vh 25vw; }
+    padding: 10vh 25vw 5vh 25vw; }
 
   .banner-title {
-    font-size: 2.4rem; }
+    font-size: 2.5rem; }
 
   .banner-description {
     font-size: 1.5rem; }
@@ -393,7 +398,7 @@ svg.projects-icon {
     font-weight: bold; }
 
   .missed {
-    padding: 30vh 2rem; }
+    padding: 30vh 8rem; }
 
   .missed-text {
     font-size: 2rem;
