@@ -30,7 +30,7 @@ function createEvent(props) {
   try {
     const request = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${GOOGLE_KEY_TOKEN}`);
     const response = await request.json();
-    const upcomingEventsCounter = 0;
+    let upcomingEventsCounter = 0;
     let fetchedPastEvents = "";
 
     const header = response.values[0];
@@ -54,8 +54,11 @@ function createEvent(props) {
     upcomingEventContainer.innerHTML = "";
     payload.forEach(props => {
       const { endDate } = props;
+
       const currentTime = new Date().getTime();
-      if (endDate < currentTime) {
+      const endingDate = new Date(endDate).getTime();
+
+      if (endingDate > currentTime) {
         upcomingEventContainer.innerHTML += createEvent(props);
         upcomingEventsCounter++;
       } else {
