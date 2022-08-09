@@ -1,0 +1,21 @@
+main {
+  position: relative;
+  width: 100%;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin: 20px;
+}
+
+.message .content {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.message .content img {
+  width: 300px;
+}

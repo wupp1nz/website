@@ -1,0 +1,37 @@
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section > h1 {
+  font-size: 30px;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card h1 {
+  margin-block: 0;
+}
+
+.card .resources {
+  display: flex;
+  gap: 20px;
+}
+
+.card .anchors {
+  justify-content: space-between;
+}
+
+@media (max-width: 1100px) {
+  section {
+    margin: 20px;
+  }
+}

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.light {
+  --text-color: #1d1d1f;
+  --bg-primary-color: white;
+  --bg-secondary-color: #fbfbfb;
+  --secondary-text-color: #4e4e4e;
+}
+
+.dark {
+  --text-color: #ffffff;
+  --bg-primary-color: #0E131F;
+  --bg-secondary-color: #151b28;
+  --secondary-text-color: #b9b9b9;
+}
+
+* {
+  --primary-color: #27c2fc;
+  --primary-gradient: linear-gradient(157deg, rgba(39,194,252,1) 0%, rgba(32,224,190,1) 100%);
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1400px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--bg-primary-color);
+}
+
+#sea-logo {
+  width: 100px;
+}
+
+#active {
+  border-bottom: 3px solid var(--primary-color);
+}
+
+#blue {
+  color: var(--primary-color);
+}
+
+.darken-text {
+  color: var(--secondary-text-color);
+}
+
+.gradient {
+  background: var(--primary-gradient);
+}
+
+.button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid var(--text-color);
+  transition: all 500ms;
+}
+
+.button:hover {
+  color: white;
+  background: black;
+  outline: 2px solid black;
+}
+
+.anchors {
+  display: flex;
+  gap: 30px
+}
+
+.anchors a {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.btn-arrow {
+  gap: 10px;
+  display: flex;
+  fill: var(--text-color);
+  align-items: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.btn-arrow:hover * {
+  color: var(--primary-color);
+  fill: var(--primary-color);
+}
+
+.block {
+  border-radius: 10px;
+  background-color: var(--bg-secondary-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+nav .right {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding-inline-start: 0;
+}
+
+nav .right a {
+  text-decoration: none;
+  color: var(--text-color)
+}
+
+nav .right a:visited {
+  color: var(--text-color)
+}
+
+nav .right li {
+  border-bottom: 3px solid transparent;
+}
+
+nav .right li:hover {
+  border-bottom: 3px solid var(--primary-color);
+}
+
+#footer-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#footer-container li {
+  text-transform: capitalize;
+}
+
+#footer-container li:hover a {
+  color: var(--primary-color);
+}
+
+#footer-container ul {
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+#footer-container #branding img {
+  width: 250px;
+}
+
+#footer-container h3 {
+  margin-block-start: 0;
+}
+
+#copyright {
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--secondary-text-color);
+}
+
+@media (max-width: 400px) {
+  #footer-container #branding {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  nav .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  } 
+
+  nav .right {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #footer-container #routes, #social {
+    width: 40%;
+  }
+
+}
