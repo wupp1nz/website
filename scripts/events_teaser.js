@@ -5,7 +5,7 @@ const RANGE = "Events";
 const upcomingEventContainer = document.querySelector(".event-container .right .events");
 
 function createEvent(props) {
-  const { title, startDate, endDate, location, description, link1, link2 } = props;
+  const { title, startDate, endDate, location, description } = props;
 
   const startingDate = new Date(startDate).toLocaleDateString("en-US", { day: "numeric", "month":"numeric" });
   const startingTime = new Date(startDate).toLocaleTimeString("en-US", { hour: '2-digit', minute:'2-digit' });

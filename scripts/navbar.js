@@ -3,19 +3,23 @@ const navbar = document.querySelector("nav");
 const listings = [
   {
     name: "events",
-    src: "../events"
+    src: "../events",
+    newTab: false
   },
   {
     name: "projects",
-    src: "../projects"
+    src: "../projects",
+    newTab: false
   },
   {
     name: "about",
-    src: "../about"
+    src: "../about",
+    newTab: false
   },
   {
     name: "join",
-    src: "../join"
+    src: "https://forms.gle/CNJHpom33kJjfSFm6",
+    newTab: true
   }
 ];
 
@@ -33,12 +37,17 @@ const rightNav = document.createElement("ul");
 rightNav.classList.add("right");
 
 listings.forEach((list) => {
-  const { name, src } = list;
+  const { name, src, newTab } = list;
   const pathname = window.location.pathname.slice(1, -1);
   const element = document.createElement("li");
   const text = document.createTextNode(name);
   const anchor = document.createElement("a");
   anchor.href = src;
+
+  if (newTab) {
+    anchor.target = "_blank";
+    anchor.rel = "noopener";
+  }
 
   if (src.slice(3) === pathname) {
     element.setAttribute("id", "active");
