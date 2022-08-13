@@ -2,7 +2,7 @@ const SPREADSHEET_ID = "1V9EnPDW7JZFJf8ncFZgseljh59JvcO3Gc1bMRuh04hs"
 const GOOGLE_KEY_TOKEN = "AIzaSyBcbBOtcmoCwJA7G34oUd5wdJHm_Q_tWsE";
 const RANGE = "Events";
 
-const upcomingEventContainer = document.querySelector(".event-container .right .events");
+const eventContainer = document.querySelector(".event-container .right .events");
 
 function createEvent(props) {
   const { title, startDate, endDate, location, description } = props;
@@ -53,23 +53,14 @@ function createEvent(props) {
     payload.sort((a, b) => new Date(a.endDate).getTime() - new Date(b.endDate).getTime());
 
     // Clears the loading message.
-    upcomingEventContainer.innerHTML = "";
+    eventContainer.innerHTML = "";
     payload.forEach(props => {
-      const { endDate } = props;
-
-      const currentTime = new Date().getTime();
-      const endingDate = new Date(endDate).getTime();
-
       const component = createEvent(props);
-      if (endingDate > currentTime) {
-        upcomingEventContainer.appendChild(component);
-      } else {
-        pastEventContainer.appendChild(component);
-      }
+      eventContainer.appendChild(component);
     });
 
   } catch(error) {
-    upcomingEventContainer.innerHTML = `Failed to load events. (${error.message})`;
+    eventContainer.innerHTML = `Failed to load events. (${error.message})`;
     console.log(error);
   }
 })();
