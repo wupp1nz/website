@@ -18,7 +18,7 @@ const listings = [
   },
   {
     name: "join",
-    src: "https://forms.gle/CNJHpom33kJjfSFm6",
+    src: "https://forms.gle/4HRGjgPjaLXfdzDK7",
     newTab: true
   }
 ];
