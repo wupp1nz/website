@@ -3,6 +3,55 @@ section {
   margin: 0 auto;
 }
 
+#board-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+board-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+board-members .container {
+  display: flex;
+  min-width: 300px;
+  gap: 20px;
+}
+
+board-members .content {
+  margin: auto 0;
+}
+
+board-members h3, p {
+  margin-block: 0;
+}
+
+board-members .photo-wrapper {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+}
+
+board-members .media-frame {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+board-members .social {
+  width: 20px;
+  filter: invert();
+}
+
 section h1 {
   font-size: 40px;
 }
