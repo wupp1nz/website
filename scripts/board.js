@@ -78,8 +78,6 @@ function createBoardMemberElement(name, position, photo, media) {
     icon.target = "_blank";
     icon.rel="noopener";
 
-    console.log(link)
-
     const social = document.createElement("img");
     social.classList.add("social");
     if (link.includes("linkedin")) {
