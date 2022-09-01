@@ -49,6 +49,11 @@ function createEvent(props) {
       payload.push(map);
     }
 
+    if (payload.length == 0) {
+      eventContainer.innerHTML = `There's currently no upcoming events at this event. Please check again later.`;
+      return;
+    }
+
     // Sorts all the fetched events by the end date.
     payload.sort((a, b) => new Date(a.endDate).getTime() - new Date(b.endDate).getTime());
 
