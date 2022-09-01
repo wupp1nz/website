@@ -3,7 +3,7 @@ const board = document.querySelector("board-members");
 const BOARD_MEMBERS = [
   {
     name: "Marc Cruz",
-    position: "diveristy quota",
+    position: "segfault destroyer",
     photo: "../assets/images/marc_cruz.jpg",
     media: [
       "https://www.linkedin.com/in/marc-cruz13/"
@@ -11,7 +11,7 @@ const BOARD_MEMBERS = [
   },
   {
     name: "Diego Pimienta",
-    position: "nerd #243",
+    position: "stuck in while loop",
     photo: "../assets/images/diego_pimienta.jpg",
     media: [
       "https://www.linkedin.com/in/diego-pimienta-b8152522b/"
@@ -19,7 +19,7 @@ const BOARD_MEMBERS = [
   },
   {
     name: "Deric Kwok",
-    position: "nerd #420",
+    position: "script kiddie",
     photo: "../assets/images/deric_kwok.jpg",
     media: [
       "https://linkedin.com/in/derickwok",
@@ -28,17 +28,17 @@ const BOARD_MEMBERS = [
   },
   {
     name: "Neil Reyes",
-    position: "nerd #69",
+    position: "coding in cobol",
     photo: "../assets/images/neil_reyes.jpg"
   },
   {
     name: "Bryan Gonzalez",
-    position: "nerd #1337",
+    position: "haxing nasa with html",
     photo: "../assets/images/bryan_gonzalez.jpg"
   },
   {
     name: "Destiny Tsui",
-    position: "diveristy quota #2",
+    position: "diversity quota",
     photo: "../assets/images/destiny_tsui.jpg"
   }
 ];

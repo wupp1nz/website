@@ -12,7 +12,7 @@ const SOCIALS = [
   },
   {
     name: "github",
-    url: "https://github.com/CPP-SEA",
+    url: "https://github.com/cppsea",
   },
   {
     name: "discord",
