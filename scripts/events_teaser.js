@@ -50,7 +50,7 @@ function createEvent(props) {
     }
 
     if (payload.length == 0) {
-      eventContainer.innerHTML = `There's currently no upcoming events at this event. Please check again later.`;
+      eventContainer.innerHTML = `There's currently no upcoming events at this time. Please check again later.`;
       return;
     }
 
