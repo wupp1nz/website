@@ -21,7 +21,7 @@ function createEvent(props) {
       <h1>${startingDate}</h1>
     </div>
     <div class="content">
-      <span class="darken-text">${!isLocationURL && location}${!isLocationURL && " ・ "}${startingTime} - ${endingTime} </span>
+      <span class="darken-text">${!isLocationURL ? `${location} @ ` : ''}${startingTime} - ${endingTime} </span>
       <h1>${title}</h1>
       <p class="darken-text">${description}</p>
     </div>
