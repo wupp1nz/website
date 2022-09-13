@@ -2,24 +2,8 @@ const board = document.querySelector("board-members");
 
 const BOARD_MEMBERS = [
   {
-    name: "Marc Cruz",
-    position: "segfault destroyer",
-    photo: "../assets/images/marc_cruz.jpg",
-    media: [
-      "https://www.linkedin.com/in/marc-cruz13/"
-    ]
-  },
-  {
-    name: "Diego Pimienta",
-    position: "stuck in while loop",
-    photo: "../assets/images/diego_pimienta.jpg",
-    media: [
-      "https://www.linkedin.com/in/diego-pimienta-b8152522b/"
-    ]
-  },
-  {
     name: "Deric Kwok",
-    position: "script kiddie",
+    position: "President",
     photo: "../assets/images/deric_kwok.jpg",
     media: [
       "https://linkedin.com/in/derickwok",
@@ -27,20 +11,21 @@ const BOARD_MEMBERS = [
     ]
   },
   {
-    name: "Neil Reyes",
-    position: "coding in cobol",
-    photo: "../assets/images/neil_reyes.jpg"
+    name: "Marc Cruz",
+    position: "Vice President",
+    photo: "../assets/images/marc_cruz.jpg",
+    media: [
+      "https://www.linkedin.com/in/marc-cruz13/"
+    ]
   },
   {
-    name: "Bryan Gonzalez",
-    position: "haxing nasa with html",
-    photo: "../assets/images/bryan_gonzalez.jpg"
+    name: "Diego Pimienta",
+    position: "Social Director",
+    photo: "../assets/images/diego_pimienta.jpg",
+    media: [
+      "https://www.linkedin.com/in/diego-pimienta-b8152522b/"
+    ]
   },
-  {
-    name: "Destiny Tsui",
-    position: "diversity quota",
-    photo: "../assets/images/destiny_tsui.jpg"
-  }
 ];
 
 const MEDIA_ICONS = {
