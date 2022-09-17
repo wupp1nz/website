@@ -3,6 +3,69 @@ main {
   width: 100%;
 }
 
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin: 20px;
+}
+
+section > h1 {
+  font-size: 30px;
+}
+
+project {
+  display: flex;
+  gap: 10px 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  gap: 20px;
+}
+
+project h1 {
+  font-size: 40px;
+  margin-block-end: 0;
+}
+
+project .left {
+  margin: auto 0;
+  padding: 20px;
+  max-width: 500px;
+}
+
+project .left a {
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+}
+
+project .left a:hover > svg {
+  fill: #27c2fc;
+}
+
+project .left a svg {
+  margin: auto 0;
+}
+
+project .right {
+  overflow: hidden;
+  display: flex;
+  flex: 1;
+  max-height: 400px;
+}
+
+project #icebreak-img1 {
+  object-fit: contain;
+  object-position: 0 50px;
+}
+
+project #icebreak-img2 {
+  object-fit: contain;
+  transform: translate(30px, -290px);
+}
+
 .message {
   display: flex;
   justify-content: center;
@@ -18,4 +81,32 @@ main {
 
 .message .content img {
   width: 300px;
+}
+
+@media (max-width: 865px) {
+
+  project {
+    flex-direction: column-reverse;
+  }
+
+  project .left {
+    max-width: 100%;
+  }
+
+  project .right {
+    max-width: inherit;
+  }
+
+  project #icebreak-img1 {
+    object-position: 0 -150px;
+  }
+
+  project .right {
+    justify-content: center;
+    width: 100%;
+  }
+
+  project #icebreak-img2 {
+    display: none;
+  }
 }
