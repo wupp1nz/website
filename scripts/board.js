@@ -1,42 +1,12 @@
-const board = document.querySelector("board-members");
-
-const BOARD_MEMBERS = [
-  {
-    name: "Deric Kwok",
-    position: "President",
-    photo: "../assets/images/deric_kwok.jpg",
-    media: [
-      "https://linkedin.com/in/derickwok",
-      "https://deric.app"
-    ]
-  },
-  {
-    name: "Marc Cruz",
-    position: "Vice President",
-    photo: "../assets/images/marc_cruz.jpg",
-    media: [
-      "https://www.linkedin.com/in/marc-cruz13/"
-    ]
-  },
-  {
-    name: "Diego Pimienta",
-    position: "Social Director",
-    photo: "../assets/images/diego_pimienta.jpg",
-    media: [
-      "https://www.linkedin.com/in/diego-pimienta-b8152522b/"
-    ]
-  },
-];
+const boards = document.querySelectorAll("board");
 
 const MEDIA_ICONS = {
   "linkedin": "../assets/tokens/linkedin.svg",
   "website": "../assets/tokens/website.svg"
 };
 
-function createBoardMemberElement(name, position, photo, media) {
-
-  const container = document.createElement("div");
-  container.classList.add("container");
+function createMember(parent, props) {
+  const { name, position, photo, media } = props;
 
   const photoWrapper = document.createElement("div");
   photoWrapper.classList.add("photo-wrapper");
@@ -58,6 +28,8 @@ function createBoardMemberElement(name, position, photo, media) {
   const mediaFrame = document.createElement("div");
   mediaFrame.classList.add("media-frame")
   media?.forEach((link) => {
+    if (!link) return;
+
     const icon = document.createElement("a");
     icon.href = link;
     icon.target = "_blank";
@@ -81,13 +53,21 @@ function createBoardMemberElement(name, position, photo, media) {
   contentFrame.appendChild(positonLabel);
   contentFrame.appendChild(mediaFrame);
 
-  container.appendChild(photoWrapper);
-  container.appendChild(contentFrame);
-  return container;
+  parent.appendChild(photoWrapper);
+  parent.appendChild(contentFrame);
 }
 
-BOARD_MEMBERS.forEach((info) => {
-  const { name, photo, position, media } = info;
-  const newMember = createBoardMemberElement(name, position, photo, media);
-  board.appendChild(newMember);
+boards.forEach((board) => {
+  const name = board.getAttribute("name");
+  const position = board.getAttribute("position");
+  const photo = board.getAttribute("avatar");
+  const linkedin = board.getAttribute("linkedin");
+  const website = board.getAttribute("website");
+
+  createMember(board, {
+    name,
+    position,
+    photo,
+    media: [linkedin, website]
+  })
 });

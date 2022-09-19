@@ -10,28 +10,29 @@ section {
   padding: 2px;
 }
 
-board-members {
+.board-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+board {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
-  gap: 20px;
-}
-
-board-members .container {
-  display: flex;
   min-width: 300px;
   gap: 20px;
 }
 
-board-members .content {
+board .content {
   margin: auto 0;
 }
 
-board-members h3, p {
+board h3, p {
   margin-block: 0;
 }
 
-board-members .photo-wrapper {
+board .photo-wrapper {
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -40,14 +41,14 @@ board-members .photo-wrapper {
   height: 120px;
 }
 
-board-members .media-frame {
+board .media-frame {
   margin-top: 10px;
   display: flex;
   gap: 20px;
   align-items: center;
 }
 
-board-members .social {
+board .social {
   width: 20px;
   filter: invert();
 }
@@ -63,7 +64,7 @@ section h1 {
 }
 
 @media (max-width: 930px) {
-  board-members {
+  .board-container {
     justify-content: center;
   }
 }
