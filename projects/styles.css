@@ -98,6 +98,11 @@ project #chisel-img1 {
   project #icebreak-img2 {
     display: none;
   }
+
+  project #chisel-img1{
+    aspect-ratio: 1/1;
+    width: 325px;
+  }
 }
 
 @media (max-width: 1100px) {
