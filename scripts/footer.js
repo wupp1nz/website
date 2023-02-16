@@ -16,7 +16,7 @@ const SOCIALS = [
   },
   {
     name: "discord",
-    url: "https://discord.gg/xgV7fVsw"
+    url: "https://discord.gg/3FJNHyJ6P6"
   }
 ];
 
