@@ -67,6 +67,11 @@ project #icebreak-img2 {
   transform: translate(30px, -290px);
 }
 
+project #chisel-img1 {
+  object-fit: contain;
+  transform: translate(0px,20px);
+}
+
 @media (max-width: 865px) {
 
   project {
@@ -92,6 +97,11 @@ project #icebreak-img2 {
 
   project #icebreak-img2 {
     display: none;
+  }
+
+  project #chisel-img1{
+    aspect-ratio: 1/1;
+    width: 325px;
   }
 }
 
