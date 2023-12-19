@@ -27,7 +27,10 @@ const branding = document.createElement("div");
 branding.id = "branding";
 
 const footerLogo = document.createElement("img");
-footerLogo.src = "../assets/images/full-logo.png";
+console.log(window.location.pathname);
+const isInsideProjectsFolder = window.location.pathname.includes("/SEASiteDev/");
+const logoPath = isInsideProjectsFolder ? "../assets/images/full-logo.png" : "/assets/images/full-logo.png";
+footerLogo.src = logoPath;
 
 const footerLogoContainer = document.createElement("a");
 footerLogoContainer.href = "/";

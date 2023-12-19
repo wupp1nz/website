@@ -3,17 +3,17 @@ const navbar = document.querySelector("nav");
 const listings = [
   {
     name: "events",
-    src: "../events",
+    src: "../../events",
     newTab: false
   },
   {
     name: "projects",
-    src: "../projects",
+    src: "../../projects",
     newTab: false
   },
   {
     name: "about",
-    src: "../about",
+    src: "../../about",
     newTab: false
   },
   {
@@ -49,7 +49,7 @@ listings.forEach((list) => {
     anchor.rel = "noopener";
   }
 
-  if (src.slice(3) === pathname) {
+  if (pathname.includes(src.slice(6))) {
     element.setAttribute("id", "active");
   }
 
