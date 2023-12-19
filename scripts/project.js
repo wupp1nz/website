@@ -17,7 +17,7 @@ projects.forEach((project) => {
   descriptionLabel.innerText = project.getAttribute("description");
 
   const textButton = document.createElement("a");
-  textButton.setAttribute("target", "_blank");
+  textButton.setAttribute("target", "_self");
   textButton.href = project.getAttribute("href");
 
   const textLabel = document.createElement("span");
