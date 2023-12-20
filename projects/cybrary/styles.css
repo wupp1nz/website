@@ -1,0 +1,53 @@
+#img1 {
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.member .name,
+.member .role {
+    margin-bottom: 5px;
+}
+
+.member .links {
+    display: flex;
+    justify-content: center;
+}
+
+.member h2,
+.member p {
+    margin-bottom: 0px; /* Adjust this value as needed */
+}
+
+.event-container .right {
+    position: relative;
+    flex: 1;
+    padding-left: 10px; /* Adjust as needed */
+}
+
+.event-container .right::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 2.5px; /* Adjust as needed */
+    background-color: #27C4F8; /* Adjust as needed */
+    height: 100%;
+}
