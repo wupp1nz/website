@@ -23,7 +23,27 @@
 <body>
   <nav></nav>
   <main>
-    <section>
+    <section class="hero">
+      <div class="delta-in-triangle">
+        <img draggable="false" src="../../assets/images/odyssey.png" alt="odyssey logo">
+      </div>
+      <div class="content">
+        <h3 class="title">Odyssey</h3>
+        <h1 class="pre-title">A Journey Through Innovation</h1>
+        <p>
+          Our program is designed to host projects oriented towards beginners, with the purpose of allowing project members to figure out which area of interest they want to pursue, such as frontend, backend, machine learning, web development, and more. We are committed to providing a supportive environment for students to explore their interests and develop their skills.
+        </p>
+        <div class="anchors">
+          <a class="btn-arrow" onClick="document.getElementById('collection').scrollIntoView();">
+            <span>view collection</span>
+            <svg width="10" height="16" viewBox="0 0 10 16">
+              <path d="M1.93286 16L9.93286 8L1.93286 0L0.0672302 1.8672L6.20009 8.00006L0.0672302 14.1329L1.93286 16Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="collection">
       <h1>Ongoing Projects</h1>
       <project
         name="🧊 Icebreak"
