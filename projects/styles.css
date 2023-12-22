@@ -81,6 +81,13 @@ project #htgr-img2 {
   transform: translate(10px, -50px);
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 @media (max-width: 865px) {
 
   project {
@@ -115,6 +122,11 @@ project #htgr-img2 {
   project #htgr-img2{
     aspect-ratio: 1/1;
     width: 325px;
+  }
+  .projects {
+    max-width: fit-content;
+    display: inline;
+    flex-direction: column;
   }
 }
 
