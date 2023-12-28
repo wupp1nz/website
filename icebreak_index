@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8">
+    <title>Projects - Icebreak</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../../scripts/navbar.js"></script>
+    <script defer src="../../scripts/footer.js"></script>
+    <script defer src="../../scripts/events_teaser.js"></script>
+    <link rel="icon" type="image/png" href="../../assets/images/triangle.png">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="../../styles/home.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0HCHCC9XSL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-0HCHCC9XSL');
+    </script>
+  </head>
+  <body>
+    <nav></nav>
+    <main>
+      <section class="hero">
+        <div class="content">
+          <h1 class="title">Icebreak</h1>
+          <p>
+            A platform for organizations to interact with their members. A central hub for members to be always updated on the latest events while providing features to incentivize member growth.
+          </p>
+          <div class="anchors">
+            <a class="btn-arrow" target="_blank" href="https://docs.google.com/document/d/1ZCYVLDHku5bQwSiag0BUfmfLz0-fi81UZdy9it8S_LE/edit#heading=h.y0vf8994q9ef">
+              <span>Learn More</span>
+              <svg width="10" height="16" viewBox="0 0 10 16">
+                <path d="M1.93286 16L9.93286 8L1.93286 0L0.0672302 1.8672L6.20009 8.00006L0.0672302 14.1329L1.93286 16Z"/>
+              </svg>
+            </a>
+          </div>
+          
+        </div>
+        <div class="delta-in-triangle">
+          <img draggable="false" src="../../assets/images/icebreak_logo.png" alt="test icebreak logo">
+        </div>
+      </section>
+      <section class="about block">
+        <div class="left">
+          <h1 class="title">About The Project</h1>
+          <p>
+            Icebreak is SEA’s platform to connect school organizations with their members. Icebreak aims to be the central hub for members to remain updated on current organization events. To create this application, our team worked with React Native, a mobile friendly version of React.js for the frontend. For the backend, Express.js was used as our framework, and for the database services like PostgreSQL and Prism ORM (Object-relational mapping). Using these technologies, Icebreak is able to function as a CRUD application, and uses JSON Web Tokens as a means of signing into the application. Future plans for Icebreak include the Guilds feature being fully implemented, aka the basis of each club and organization.
+        </p>
+        
+        </div>
+        <div class="right">
+          <div class="benefit">
+            <img draggable="false" alt="community" src="../../assets/tokens/connection.svg">
+            <div class="content">
+            <img id="img1" src="../../assets/images/icebreak_app1.png" alt="icebreak app">
+            </div>
+          </div>
+          <div class="benefit">
+            <img draggable="false" alt="projects" src="../../assets/tokens/rocket.svg">
+            <div class="content">
+              <!-- <h3>Technologies</h3> -->
+              <img id="img1" src="../../assets/images/icebreak_app2.png" alt="icebreak app">
+            </div>
+          </div>
+          <!-- <div class="benefit">
+            <img draggable="false" alt="workshops" src="../../assets/tokens/compass.svg">
+            <div class="content">
+              <img id="img1" src="../../assets/images/chisel_img.png" alt="chisel_img">
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <section class="event-container block">
+        <div class="right">
+          <h1 class="title">Members</h1>
+            <div class="team-members">
+              <div class="member">
+                <h2>Jane Doe</h2>
+                <p>Lead</p>
+                <div>
+                    <!-- <a href="https://Github.net/janedoe"></a> -->
+                    <a href="https://linkedin.com/in/janedoe">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+            <div class="team-members">
+              <div class="member">
+                <h2>Jane Doe</h2>
+                <p>Co-lead</p>
+                <div>
+                    <a href="https://Github.net/janedoe">Github</a>
+                    <a href="https://linkedin.com/in/janedoe">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="left">
+          <div class="team-members">
+            <div class="member">
+              <h2>Jane Doe</h2>
+              <p>Designer</p>
+              <div>
+                  <a href="https://Github.net/janedoe">Github</a>
+                  <a href="https://linkedin.com/in/janedoe">LinkedIn</a>
+              </div>
+            </div>
+            <div class="team-members">
+              <div class="member">
+                <h2>Jane Doe</h2>
+                <p>Designer</p>
+                <div>
+                    <a href="https://Github.net/janedoe">Github</a>
+                    <a href="https://linkedin.com/in/janedoe">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+            <div class="team-members">
+              <div class="member">
+                <h2>Jane Doe</h2>
+                <p>Designer</p>
+                <div>
+                    <a href="https://Github.net/janedoe">Github</a>
+                    <a href="https://linkedin.com/in/janedoe">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+            <div class="team-members">
+              <div class="member">
+                <h2>Jane Doe</h2>
+                <p>Designer</p>
+                <div>
+                    <a href="https://Github.net/janedoe">Github</a>
+                    <a href="https://linkedin.com/in/janedoe">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+            <div class="team-members">
+              <div class="member">
+                <h2>Jane Doe</h2>
+                <p>Designer</p>
+                <div>
+                    <a href="https://Github.net/janedoe">Github</a>
+                    <a href="https://linkedin.com/in/janedoe">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
